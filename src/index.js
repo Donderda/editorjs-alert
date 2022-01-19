@@ -82,14 +82,14 @@ export default class Alert {
    */
   static get ALERT_TYPES() {
     return [
-      'primary',
-      'secondary',
+      //  'primary',
+      //  'secondary',
       'info',
       'success',
       'warning',
-      'danger',
-      'light',
-      'dark',
+      //   'danger',
+      //   'light',
+      //   'dark',
     ];
   }
 
@@ -131,10 +131,10 @@ export default class Alert {
     };
 
     this.container = undefined;
-    
+
     this.readOnly = readOnly;
   }
-  
+
   /**
    * Returns true to notify the core that read-only mode is supported
    *
