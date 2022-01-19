@@ -85,8 +85,8 @@ export default class Alert {
       //  'primary',
       //  'secondary',
       'info',
-      'success',
-      'warning',
+      'hinweis',
+      'warnung',
       //   'danger',
       //   'light',
       //   'dark',
@@ -102,8 +102,8 @@ export default class Alert {
     return {
       settingsButton: this.api.styles.settingsButton,
       settingsButtonActive: this.api.styles.settingsButtonActive,
-      wrapper: 'cdx-alert',
-      wrapperForType: (type) => `cdx-alert-${type}`,
+      wrapper: 'meldung',
+      wrapperForType: (type) => `meldung_${type}`,
       message: 'cdx-alert__message',
     };
   }
